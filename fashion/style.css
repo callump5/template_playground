@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    line-height: 35px;
+
+    font-family: 'Playfair Display', serif;
+    color: white;
+}
+
+:root {
+
+  --complementry: rgba(56, 56, 56, 0.7);
+}
+/*
+
+
+    font-family: 'Lexend Deca', sans-serif;
+
+    font-family: 'Raleway', sans-serif;
+
+    font-family: 'Lato', sans-serif;
+
+    font-family: 'Playfair Display', serif;
+
+
+ */
+html {
+    height: 200vh;
+}
+body {
+    background-image: url("../imgs/black-and-white-boutique-clothes-1884581.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #cbcbcb;
+    background-blend-mode: multiply;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+header {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+}
+
+nav {
+    width: 50%;
+}
+
+nav ul {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li a {
+
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+#logo {
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 5px 10px;
+    margin: 10px;
+}
+.gray {
+    background-color: var(--complementry);
+}
+
+#landing {
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#landing h2 {
+    font-size: 3em;
+}
+
+#landing p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 5px 10px;
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 1.6em;
+}
+
+.banner h2 {
+    text-align: center;
+    font-size: 2em;
+    padding: 10px;
+
+}
+main {
+    background-color: white;
+    padding: 75px 0;
+}
+
+main p {
+    color: gray;
+}
+
+#categorys, #products {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.category-card , .image-card {
+    cursor: pointer;
+    position: relative;
+    height: 400px;
+    width: 49%;
+    background: url("../imgs/kissclipart-mens-suits-png-clipart-suit-clip-art-db88efb5fa8d1987.png"),linear-gradient(to bottom right,rgba(255, 0, 0, 0), rgba(10, 10, 10, 0.21))  ; /* FF3.6-15 */
+    background-size: 70% auto, cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.image-card {
+    width: 32%
+}
+
+div.category-card:nth-child(2){
+    background-image: url("../imgs/shoe3.png"),linear-gradient(to bottom left,rgba(255, 0, 0, 0), rgba(10, 10, 10, 0.21));
+}
+.category-card h3, .image-card h3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.6em;
+}
+
+#offer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+#offer div {
+    width: 40%;
+    margin-right: 75px;
+}
+
+#offer button {
+    float: right;
+}
+
+#offer h3 {
+    color: white;
+    font-size: 2em;
+    padding-bottom: 20px;
+    border-bottom: 2px solid white;
+}
+
+#offer p {
+    color: rgb(21, 21, 21);
+    font-size: 1.2em;
+}
+
+#team h2, .team h3, .team h4 {
+    color: rgb(21, 21, 21);
+}
+#team h2 {
+    font-size: 3em;
+}
+
+.team img {
+    height: 100px;
+    width: auto;
+}
+
+.img-break {
+    height: 70vh;
+    background-image: url("../imgs/vintage.png"),linear-gradient(to right, rgba(186, 186, 186, 0.24), rgba(10, 10, 10, 0.21));
+    background-repeat: no-repeat;
+    background-size: auto 90%, cover;
+    background-position: 20%;
+}
+
+#info {
+    background-color: #d8d8d8;
+}
+
+#info > div {
+    padding: 30px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.info p {
+    font-size: 1.2em;
+    text-align: center;
+    color: var(--complementry);
+
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+footer {
+    background-color: rgba(56, 56, 56, 1);
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div.container {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px 0 ;
+}
+
+footer h3, footer p {
+
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+footer li {
+
+    font-size: 1.2em;
+    font-family: 'Lexend Deca', sans-serif;
+}

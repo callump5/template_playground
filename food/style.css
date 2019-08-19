@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    line-height: 40px;
+    color: #2d2d2d;
+}
+
+p {
+
+    font-family: 'Roboto', sans-serif;
+
+}
+/*
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+
+    font-family: 'Nunito', sans-serif;
+
+    font-family: 'Dancing Script', cursive;
+
+*/
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 0 80px;
+}
+
+body {
+
+    background-color: #efefef;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+nav {
+    border-bottom: 4px solid grey;
+    width: 100%;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+
+    width: 80%;
+}
+nav ul li  {
+    padding: 5px 0;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+#logo {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Dancing Script', cursive;
+}
+
+#logo h1 {
+    color: #ff6038;
+    font-size: 2.5em;
+}
+
+#logo p {
+    font-size: 1.2em;
+    line-height: 22px;
+    margin-left: 24px;
+
+    font-family: 'Dancing Script', cursive;
+}
+
+#landing {
+    height: 70vh;
+    background-image: url("../imgs/bake-baking-cake-913136.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+    border-bottom: 3px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#landing-text {
+    width: 60%;
+    background-color: white;
+    padding: 50px;
+}
+
+#landing-text h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5em;
+    width: max-content;
+    margin: 0 auto;
+}
+#landing-text p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+#icons {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#icons img {
+    margin: 20px 0;
+}
+
+.title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+    text-align: center;
+    padding: 40px 0;
+    color: #ff6038;
+}
+
+#about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#about p {
+    margin: 0 10px;
+}
+
+
+.menu-item-sm {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.menu-item-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+.menu-item-price h4 {
+
+    font-family: 'Dancing Script', cursive;
+
+    color: #ff6038;
+
+
+}
+
+div.col3 > div > div > h4:nth-child(1){
+    font-size: 1.6em;
+}
+div.col3 > div > div > h4:nth-child(2){
+    font-size: 1.2em;
+    color: #ffc338;
+
+}
+
+div.col3:nth-child(1) > div > p
+{    line-height: 22px;
+
+
+}
+
+
+#main-menu {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.menu-title h3 {
+    width: 100%;
+    color: #ff6038;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Dancing Script', cursive;
+    padding: 20px 0;
+}
+
+
+.col3 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.sub-title {
+  font-size: 2em;
+  width: 100%;
+    font-family: 'Dancing Script', cursive;
+    padding: 20px 0;
+}
+
+#main-menu h2 {
+width: unset;
+}
