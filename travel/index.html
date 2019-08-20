@@ -25,13 +25,35 @@
 </div>
 <main>
     <div id="landing">
+        <div class="container">
+            <div id="landing-text">
+                <h1>Lorem ipsum dolor sit amet.</h1>
+                <p>Lorem ipsum dolor sit amet lorem ipsum dolor sit amet.</p>
+            </div>
+            <div id="booking">
+                <div class="container">
+                    <form>
+                        <div id="booking-type">
+                            <input type="radio" name="booking-type" value="single" checked><label>Single</label>
+                            <input id="return" type="radio" name="booking-type" value="return"><label>Return</label>
+                        </div>
 
-        <div id="booking">
+                        <label>Booking Date:</label>
+                        <input name="booking-date" type="date">
 
+                        <label class="return-date">Return Date:</label>
+                        <input id="return-date" type="date">
+
+                        <input value="From" type="text">
+
+                        <input value="To" type="text">
+
+                        <button type="submit">Check</button>
+                    </form>
+                </div>
+            </div>
         </div>
-
     </div>
 </main>
-
 </body>
 </html>

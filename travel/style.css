@@ -27,7 +27,7 @@
 }
 
 .gradient {
-    background:linear-gradient(to left, #facd50, #fa7850);
+    background-color: #facd50;
 }
 
 header {
@@ -39,7 +39,7 @@ header {
     color: white;
     font-size: 1.3em;
     padding-top: 30px;
-    padding-bottom: 3px;
+    padding-bottom: 2px;
 }
 
 nav {
@@ -60,7 +60,7 @@ nav ul{
 nav ul li a {
     background-color: white;
     font-size: 1.1em;
-    color: orangered;
+    color: #ff9115;
     padding: 10px 10px 0 10px;
     border-top-left-radius: 15px;
 }
@@ -71,9 +71,15 @@ nav ul li a {
     align-items: center;
     justify-content: center;
 }
+#logo h1 {
+    font-size: 2em;
+    line-height: 1em;
+
+}
+
 #landing {
-    height: 80vh;
-    background-image: url("../aircraft-aircraft-wing-airplane-2007401.jpg");
+    height: calc(100vh - 72px);
+    background-image: url("../coconut-dawn-daylight-1152359.jpg");
     background-size: 100% auto;
     background-position: center right;
     background-repeat: no-repeat;
@@ -84,18 +90,78 @@ nav ul li a {
     justify-content: center;
 }
 
-#logo h1 {
-    font-size: 1.4em;
-    line-height: 1.4em;
-    font-family: 'Hepta Slab', serif;
+#landing > div.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
 
+#landing-text {
+    width: 60%;
+}
+#landing-text h1 {
+
+    font-size: 2.5em;
+    line-height: 1em;
+    color: white;
+}
+
+#landing-text p {
+    width: 70%;
+    font-size: 1.2em;
+    color: white;
+    line-height: 0.9em;
 }
 
 #booking {
-    height: 50%;
-    width: 80%;
-    background-color: rgba(17, 17, 17, 0.33);
-    border: 5px solid white;
-    border-radius: 10px;
+    padding: 20px 0;
+    width: 25%;
+    background-color: white;
+    box-shadow: 1px 1px #888888;
+    border-radius: 2px;
+}
+#booking h2 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+#booking-type {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#booking-type > input {
+    margin: 0;
+}
+
+#booking-type > label {
+    margin-right: 20px;
+}
+
+
+input {
+    margin-bottom: 15px;
+    padding: 10px 0;
+    border:none;
+
+    border-bottom: 2px solid #9d9d9d;
+}
+
+form button {
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #facd50;
+    border: none;
+    color: white;
+    margin-top: 15px;
+}
