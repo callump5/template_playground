@@ -12,7 +12,7 @@ body {
 	font-family: "Exo", sans-serif;
 	color: #fff;
 	background: linear-gradient(-45deg, #ffa571, #8ad0ff);
-	background-size: 400% 400%;
+	background-size: 200% 200%;
 	animation: gradientBG 15s ease infinite;
 }
 
@@ -45,7 +45,6 @@ header h1 {
 a {
     font-size: 2.5em;
     color: white;
-    border-bottom: 2px solid white;
 }
 
 @keyframes gradientBG {
